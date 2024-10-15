@@ -23,32 +23,44 @@ cd your-repo
 
 ### Create a virtual environment
 
+```bash
 python -m venv .venv
+```
 
 ### Activate the virtual environment
 
 ### For Windows
 
+```bash
 .venv\Scripts\activate
+```
 
 ### For MacOS/Linux
 
+```bash
 source .venv/bin/activate
+```
 
 ## 3. Install dependencies
 
 After activating the virtual environment, install all required packages:
 
+```bash
 pip install -r requirements.txt
+```
 
 ## 4. Create .env file
 
 Create a .env file in the root directory of the project and add your OpenAI API key:
 
+```bash
 OPENAI_API_KEY="your_openai_key"
+```
 
 ## 5. Run the app
 
 To launch the application, use the following Streamlit command:
 
+```bash
 streamlit run main.py
+```
